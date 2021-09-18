@@ -3,6 +3,7 @@ import unittest
 import time
 from selenium.webdriver import ActionChains
 from selenium.webdriver.support.ui import Select
+import HtmlTestRunner
 
 class Ecomm(unittest.TestCase):
     @classmethod
@@ -117,4 +118,4 @@ class Ecomm(unittest.TestCase):
 
 
 if __name__ == "__main__":
-    unittest.main()
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='..\\Automation\\Reports'))
