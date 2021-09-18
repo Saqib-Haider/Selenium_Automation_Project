@@ -1,0 +1,18 @@
+username_login = "name:userName"
+password_login = "name:password"
+button_login = "name:submit"
+
+
+firstname_regis = "name:firstName"
+lastname_regis = "name:lastName"
+phone_regis = "name:phone"
+email_regis = "name:userName"
+address_regis = "name:address1"
+city_regis = "name:city"
+state_regis = "name:state"
+postal_regis = "name:postalCode"
+country_regis = "name:country"
+username_regis = "name:email"
+password_regis = "name:password"
+confirm_password = "name:confirmPassword"
+button_regis = "name:submit"
